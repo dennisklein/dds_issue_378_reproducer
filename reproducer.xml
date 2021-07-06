@@ -1,0 +1,11 @@
+<topology name="di378">
+
+    <decltask name="di378task">
+      <exe reachable="true">/home/dklein/projects/dds_issue_378_reproducer/build/di378task</exe>
+    </decltask>
+
+    <main name="main">
+        <task>di378task</task>
+    </main>
+
+</topology>
